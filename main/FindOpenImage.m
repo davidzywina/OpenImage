@@ -380,7 +380,7 @@ function FindAgreeableClosure(j :bound:=80, Bound:=10^7, minimal:=true, assume_u
 
         Output:  a boolean "b" and a sequence "label".
 
-            The boolean b is true if and only if X_G(Q) has infinitely many points.
+            If the boolean b is true, then X_G(Q) will be infinite.
 
             Suppose b is true:  By construction, G up to conjugacy will be described by a unique element of our array X of modular curves.
             The sequence "label" is the key for this entry.    In this cases, we also return a set S consisting of the rational points 
